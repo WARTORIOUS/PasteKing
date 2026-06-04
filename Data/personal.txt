@@ -1,0 +1,357 @@
+# ============================================================
+# PasteKing - Data File
+# ============================================================
+# Theme: Light
+
+### My Details
+
+type: CopyText
+"Full Name"
+"""[Enter Full Name]"""
+
+---
+
+type: CopyText
+"First Name"
+"""[Enter First Name]"""
+
+---
+
+type: CopyText
+"Last Name"
+"""[Enter Last Name]"""
+
+---
+
+type: CopyText
+"Email"
+"""[Enter Email Address]"""
+
+---
+
+type: CopyText
+"Phone"
+"""[Enter Phone Number]"""
+
+---
+
+type: CopyText
+"Address Line 1"
+"""[Enter Address Line 1]"""
+
+---
+
+type: CopyText
+"Address Line 2"
+"""[Enter Address Line 2]"""
+
+---
+
+type: CopyText
+"Town / City"
+"""[Enter Town or City]"""
+
+---
+
+type: CopyText
+"County / State"
+"""[Enter County or State]"""
+
+---
+
+type: CopyText
+"Postcode / ZIP"
+"""[Enter Postcode or ZIP]"""
+
+---
+
+type: CopyText
+"Country"
+"""[Enter Country]"""
+
+---
+
+type: CopyText
+"Full Address"
+"""[Address Line 1]
+[Address Line 2]
+[Town / City]
+[County / State]
+[Postcode / ZIP]
+[Country]"""
+
+---
+
+type: CopyText
+"Date of Birth"
+"""[DD/MM/YYYY]"""
+
+---
+
+type: CopyText
+"Website"
+"""[Website URL]"""
+
+---
+
+type: CopyText
+"LinkedIn URL"
+"""[URL]"""
+
+---
+
+type: CopyText
+"National ID"
+"""[National Insurance Number / SSN / Other]"""
+### End_Of_This_Folder
+
+### AI Prompts
+
+### CV & Jobs
+
+type: CopyText
+"Full CV"
+"""[Paste your full CV here]"""
+
+---
+
+type: CopyText
+"Cover Letter"
+"""Write a professional cover letter tailored to the job description below.
+
+Use my CV and experience to explain why I am a strong candidate.
+
+CV:
+[PASTE CV]
+
+JOB DESCRIPTION:
+[PASTE JOB DESCRIPTION]"""
+
+---
+
+type: CopyText
+"CV Improve"
+"""Review my CV and suggest improvements.
+
+Focus on:
+- Clarity
+- Impact
+- Grammar
+- ATS compatibility
+- Missing achievements
+
+CV:
+[PASTE CV]"""
+
+---
+
+type: CopyText
+"Interview Prep"
+"""Using the CV and job description below, generate likely interview questions and model answers.
+
+CV:
+[PASTE CV]
+
+JOB DESCRIPTION:
+[PASTE JOB DESCRIPTION]"""
+### End_Of_This_Folder
+
+### Writing
+
+type: CopyText
+"Rewrite Better"
+"""Rewrite the text below to sound more professional, clear and concise:
+
+[PASTE TEXT]"""
+
+---
+
+type: CopyText
+"Proofread"
+"""Proofread the following text.
+
+Correct spelling, grammar and punctuation while preserving meaning:
+
+[PASTE TEXT]"""
+
+---
+
+type: CopyText
+"Summarise"
+"""Summarise the following text into key bullet points:
+
+[PASTE TEXT]"""
+### End_Of_This_Folder
+
+### Research
+
+type: CopyText
+"Explain Topic"
+"""Explain the following topic clearly for an intelligent beginner:
+
+[TOPIC]"""
+
+---
+
+type: CopyText
+"Deep Research"
+"""Research the topic below.
+
+Include:
+- Background
+- Current state
+- Key facts
+- Pros and cons
+- Sources
+
+Topic:
+[TOPIC]"""
+### End_Of_This_Folder
+
+### End_Of_This_Folder
+
+### Links
+
+### Work / Professional
+
+type: Link
+"Indeed"
+"""https://www.indeed.com"""
+
+---
+
+type: Link
+"CV Library"
+"""https://www.cv-library.co.uk"""
+
+---
+
+type: Link
+"dwbeck.com"
+"""www.dwbeck.com"""
+### End_Of_This_Folder
+
+### Personal
+
+type: Link
+"Google"
+"""https://www.google.com"""
+
+---
+
+type: Link
+"YouTube"
+"""https://www.youtube.com"""
+
+---
+
+type: Link
+"ChatGPT"
+"""https://chatgpt.com"""
+### End_Of_This_Folder
+
+### My Links
+
+type: Link
+"Website"
+"""https://example.com"""
+
+---
+
+type: Link
+"Portfolio"
+"""https://example.com"""
+
+---
+
+type: Link
+"GitHub"
+"""https://github.com/username"""
+### End_Of_This_Folder
+
+### End_Of_This_Folder
+
+### My Files
+
+type: LocalPath
+"C drive"
+"""C:\"""
+
+---
+
+type: LocalPath
+"Documents"
+"""C:\Users\[USERNAME]\Documents"""
+
+---
+
+type: LocalPath
+"Downloads"
+"""C:\Users\[USERNAME]\Downloads"""
+
+---
+
+type: LocalPath
+"Projects"
+"""C:\Users\[USERNAME]\Documents\Projects"""
+
+---
+
+type: LocalPath
+"CV Folder"
+"""C:\Users\[USERNAME]\Documents\CV"""
+### End_Of_This_Folder
+
+### Notes
+
+type: CopyText
+"Important Notes"
+"""[Add important notes here]"""
+
+---
+
+type: CopyText
+"Emergency Contact"
+"""Name:
+Phone:
+Relationship:"""
+
+---
+
+type: CopyText
+"Reference Numbers"
+"""Reference 1:
+Reference 2:
+Reference 3:"""
+### End_Of_This_Folder
+
+### Shutdown
+
+type: Command
+"Shutdown 30M"
+"""shutdown -s -t 1800"""
+
+---
+
+type: Command
+"Shutdown 1H"
+"""shutdown -s -t 3600"""
+
+---
+
+type: Command
+"Shutdown 2H"
+"""shutdown -s -t 7200"""
+
+---
+
+type: Command
+"Shutdown 4H"
+"""shutdown -s -t 14400"""
+
+---
+
+type: Command
+"Cancel Shutdown"
+"""shutdown -a"""
+### End_Of_This_Folder

@@ -1,0 +1,29 @@
+# ============================================================
+# PasteKing - Data File
+# ============================================================
+# Theme: Light
+# Use the Edit (✏) buttons in the app, or edit this file directly.
+
+
+### My Details
+
+type: CopyText
+"Full Name"
+"""Your Full Name Here"""
+
+---
+
+type: CopyText
+"Email"
+"""your@email.com"""
+
+### End_Of_This_Folder
+
+
+### Links
+
+type: Link
+"My Website"
+"""https://www.yourwebsite.com"""
+
+### End_Of_This_Folder

@@ -1,0 +1,296 @@
+# ============================================================
+# PasteKing — AI Population Prompt
+# Developer\AI-Population-Prompt.txt
+# ============================================================
+#
+# FOR HUMANS READING THIS:
+# -------------------------
+# You don't have to fill in Template.txt by hand!
+# You can ask an AI assistant (like Claude, ChatGPT, Gemini etc.)
+# to do it for you — just copy everything below the dotted line,
+# paste it into your AI chat, and attach documents like your CV.
+# The AI will generate a ready-to-use Template.txt file for you.
+#
+# Just copy the finished result into the Data folder
+# and select the new file in the options menu. 
+# 
+#
+# ⚠️  PRIVACY NOTE:
+# Any information you share with an AI assistant is subject to
+# that service's own privacy policy. PasteKing itself stores
+# your data only in data.txt on your own local machine — it
+# never connects to the internet or sends anything anywhere.
+# You are responsible for what you choose to share and with whom.
+# Use at your own risk. David William Beck accepts no
+# responsibility for how your data is handled by third-party
+# AI services. If in doubt, only share what you're comfortable
+# making public.
+#
+# ============================================================
+
+
+- - - - - - - - COPY EVERYTHING BELOW THIS LINE - - - - - - -
+
+IMPORTANT: You are a code generator. You output only raw code blocks. You never output prose.
+You are helping a user set up PasteKing, a personal clipboard and launcher tool.
+Your job is to generate a populated data.txt file based on information the user
+provides — for example an attached CV, a list of their details, or anything else
+they share with you.
+
+
+Output must be wrapped in triple backticks. No text before or after. If you add any text outside the code block, the answer is invalid.
+
+Return the result as a single code block using triple backticks.
+
+Do not include any text, explanation, or commentary outside the code block.
+
+If you do, the output is invalid.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ABOUT PASTEKING
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+PasteKing is a small desktop tool that displays buttons the user can click to:
+  - Copy text to their clipboard instantly
+  - Open websites in their browser
+  - Open files or folders on their PC
+  - Run system commands (e.g. timed shutdown)
+
+Everything is driven by a plain text file called data.txt.
+Your output will become that file.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+THE DATA.TXT FORMAT — READ THIS CAREFULLY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FOLDERS
+-------
+Folders group buttons together into pages. They can be nested as deep as needed.
+
+  ### Folder Name          ← opens a folder
+  ### End_Of_This_Folder   ← closes the most recently opened folder
+
+Every opened folder MUST be closed. Think of them like brackets:
+  ### Outer Folder
+      ### Inner Folder
+      ### End_Of_This_Folder    ← closes Inner Folder
+  ### End_Of_This_Folder        ← closes Outer Folder
+
+
+ITEMS
+-----
+Each button is one item. Items must follow this exact order:
+
+  ---
+  type: CopyText
+  "Button Label"
+  """Content that gets copied or used"""
+
+Rules:
+  - --- separates items (put it before each item)
+  - type: must come first
+  - "Label" must come second — use double quotes
+  - """Content""" must come third — use triple double-quotes
+  - Triple quotes allow multiple lines of content
+  - Lines starting with # are comments and are ignored
+  - Do NOT put --- between a folder header and its first item
+
+
+ITEM TYPES
+----------
+
+  CopyText   Copies the content to the clipboard when clicked.
+             Use for: names, addresses, email addresses, phone numbers,
+             long prompts, CV text, NI numbers, any reusable text.
+
+  Link       Opens the content as a URL in the default browser.
+             Use for: websites, Google Docs, YouTube, LinkedIn, etc.
+             Content must start with https:// or http://
+
+  LocalPath  Opens a file or folder on the user's Windows PC.
+             Use for: Desktop folders, project folders, applications.
+             Example content: C:\Users\Name\Desktop\MyFolder
+
+  Command    Runs a Windows system command.
+             Use for: shutdown timers, batch commands.
+             Example content: shutdown -s -t 3600
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FULL FORMAT EXAMPLE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+### My Details
+
+---
+type: CopyText
+"Full Name"
+"""Jane Smith"""
+
+---
+type: CopyText
+"Full Address"
+"""12 Example Street
+London
+SW1A 1AA"""
+
+---
+type: CopyText
+"Email"
+"""jane@example.com"""
+
+---
+type: Link
+"My LinkedIn"
+"""https://www.linkedin.com/in/janesmith"""
+
+### End_Of_This_Folder
+
+
+### AI Prompts
+
+### CV & Jobs
+
+---
+type: CopyText
+"Cover Letter Prompt"
+"""Briefly write why I am a great match for this job using persuasive language.
+Write from the first person. Here is my CV and the job description:"""
+
+---
+type: CopyText
+"Full CV Text"
+"""Jane Smith
+jane@example.com | 07700 900000 | London
+
+EXPERIENCE
+Example Company — Marketing Manager
+Jan 2020 – Present
+Did lots of great things here.
+
+EDUCATION
+University of Example — BA Marketing (2:1)
+2016 – 2019"""
+
+### End_Of_This_Folder
+
+### End_Of_This_Folder
+
+
+### Links
+
+---
+type: Link
+"My Website"
+"""https://www.example.com"""
+
+---
+type: Link
+"Google Docs"
+"""https://docs.google.com"""
+
+### End_Of_This_Folder
+
+
+### Shutdown
+
+---
+type: Command
+"Shutdown 1H"
+"""shutdown -s -t 3600"""
+
+---
+type: Command
+"Shutdown 2H"
+"""shutdown -s -t 7200"""
+
+---
+type: Command
+"Cancel Shutdown"
+"""shutdown -a"""
+
+### End_Of_This_Folder
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUGGESTED FOLDER STRUCTURE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Use your judgement based on what the user shares. A good starting structure is:
+
+  ### My Details
+      Individual CopyText buttons for: full name, address lines, phone,
+      email, website, any ID or reference numbers they mention
+  ### End_Of_This_Folder
+
+  ### AI Prompts
+      ### CV & Jobs
+          Their full CV as a CopyText block, plus any prompt templates
+      ### End_Of_This_Folder
+      ### [Other prompt categories based on their interests]
+      ### End_Of_This_Folder
+  ### End_Of_This_Folder
+
+  ### Links
+      ### Work / Professional
+      ### End_Of_This_Folder
+      ### Personal / Social
+      ### End_Of_This_Folder
+  ### End_Of_This_Folder
+
+  ### My Files
+      LocalPath buttons for common folders (if the user mentions any)
+  ### End_Of_This_Folder
+
+  ### Shutdown
+      Standard shutdown timers — always useful to include
+  ### End_Of_This_Folder
+
+Feel free to add, remove, or rename folders based on what the user actually needs.
+If they mention YouTube, gaming, music, freelance work, or anything else specific —
+create relevant folders and prompts for those too.
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+GOOD PRACTICES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+- Keep button labels short and clear — they appear on small buttons
+- Split address into individual lines AND a combined block (both are useful)
+- If the user has a long CV, include it as a single CopyText block — triple
+  quotes handle as many lines as needed, no character limit
+- Every ### must have a matching ### End_Of_This_Folder — check your nesting!
+- Don't include any --- before the very first item inside a folder
+- Lines starting with # are ignored — you can add helpful comments
+- When in doubt, add more buttons rather than fewer — they're easy to delete
+
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+YOUR TASK
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+Using the information the user provides (CV, details, preferences, links, etc.),
+generate a complete, well-organised data.txt file following all the rules above.
+
+Output ONLY the data.txt content — no explanation, no markdown code fences,
+no preamble. The user will paste it straight into their data.txt file.
+
+Start with a short comment block at the top like:
+  # PasteKing data.txt
+  # Generated for: [User's Name]
+  # Edit this file in Notepad and restart PasteKing to see changes.
+  # If something breaks, copy Developer\data.example.txt and rename it data.txt.
+
+Then generate the folders and buttons. Go!
+
+Output must be wrapped in triple backticks. No text before or after. If you add any text outside the code block, the answer is invalid.
+
+important: You are a code generator.
+
+Return the result as a single code block using triple backticks.
+
+Do not include any text, explanation, or commentary outside the code block.
+
+If you do, the output is invalid.
+- - - - - - - - - END OF PROMPT - - - - - - - - - - - - - - -

@@ -1,0 +1,317 @@
+# ============================================================
+# PasteKing - Data File
+# ============================================================
+# Theme: Light
+
+### Company Details
+
+type: CopyText
+"Company Name"
+"""[Enter Company Name]"""
+
+---
+
+type: CopyText
+"Trading Name"
+"""[Enter Trading Name]"""
+
+---
+
+type: CopyText
+"Company Number"
+"""[Enter Company Registration Number]"""
+
+---
+
+type: CopyText
+"VAT Number"
+"""[Enter VAT Number]"""
+
+---
+
+type: CopyText
+"Email"
+"""[Company Email Address]"""
+
+---
+
+type: CopyText
+"Phone"
+"""[Company Phone Number]"""
+
+---
+
+type: CopyText
+"Website"
+"""[https://company-website.com]"""
+
+---
+
+type: CopyText
+"Registered Address"
+"""[Line 1]
+[Line 2]
+[City]
+[Postcode]
+[Country]"""
+
+---
+
+type: CopyText
+"Full Address (Single Line)"
+"""[Line 1], [Line 2], [City], [Postcode], [Country]"""
+### End_Of_This_Folder
+
+### Invoicing & Finance
+
+type: CopyText
+"Invoice Email"
+"""[invoices@company.com]"""
+
+---
+
+type: CopyText
+"Accounts Email"
+"""[accounts@company.com]"""
+
+---
+
+type: CopyText
+"Bank Account Name"
+"""[Company Bank Account Name]"""
+
+---
+
+type: CopyText
+"Bank Name"
+"""[Bank Name]"""
+
+---
+
+type: CopyText
+"IBAN"
+"""[IBAN if applicable]"""
+
+---
+
+type: CopyText
+"SWIFT/BIC"
+"""[SWIFT/BIC if applicable]"""
+
+---
+
+type: CopyText
+"Payment Terms"
+"""Net 7 / Net 14 / Net 30 (choose one)
+
+Standard terms:
+Invoices are due within [X] days of issue."""
+
+---
+
+type: CopyText
+"Invoice Template Prompt"
+"""Create a professional invoice for the following:
+
+Company:
+[YOUR COMPANY DETAILS]
+
+Client:
+[CLIENT DETAILS]
+
+Services:
+[LIST SERVICES]
+
+Include:
+- Invoice number
+- Date issued
+- Due date
+- VAT breakdown (if applicable)
+- Bank details
+- Total amount"""
+### End_Of_This_Folder
+
+### Operations & Admin
+
+type: CopyText
+"Standard Email Reply"
+"""Thank you for your message.
+
+We will review this and respond as soon as possible.
+
+Kind regards,
+[Company Name]"""
+
+---
+
+type: CopyText
+"Out of Office Reply"
+"""Thank you for your email.
+
+We are currently out of office and will respond on our return.
+
+If urgent, please contact [alternative contact]."""
+
+---
+
+type: CopyText
+"Meeting Notes Template"
+"""Date:
+Attendees:
+Agenda:
+
+Notes:
+- 
+
+Actions:
+- 
+
+Next Meeting:"""
+
+---
+
+type: CopyText
+"Client Onboarding Checklist"
+"""- Contract signed
+- Invoice sent
+- Payment received
+- Access granted
+- Kickoff scheduled"""
+### End_Of_This_Folder
+
+### Legal & Compliance
+
+type: CopyText
+"Company Registration Details"
+"""Company Number:
+VAT Number:
+Registered Address:"""
+
+---
+
+type: CopyText
+"Privacy Policy Notes"
+"""Ensure compliance with UK GDPR:
+- Data collection purposes
+- Storage duration
+- User rights
+- Contact for data requests"""
+
+---
+
+type: CopyText
+"Contract Template Prompt"
+"""Draft a basic service agreement including:
+
+- Scope of work
+- Payment terms
+- Termination clause
+- Liability limitation
+- Confidentiality clause
+
+Use UK English legal tone."""
+### End_Of_This_Folder
+
+### Links
+
+### Company Online
+
+type: Link
+"Company Website"
+"""https://company-website.com"""
+
+---
+
+type: Link
+"Client Portal"
+"""https://portal.company.com"""
+
+---
+
+type: Link
+"Email Login"
+"""https://mail.google.com"""
+
+---
+
+type: Link
+"CRM System"
+"""https://crm.example.com"""
+### End_Of_This_Folder
+
+### Social Media
+
+type: Link
+"LinkedIn"
+"""https://www.linkedin.com/company/your-company"""
+
+---
+
+type: Link
+"X (Twitter)"
+"""https://x.com/yourcompany"""
+
+---
+
+type: Link
+"Instagram"
+"""https://www.instagram.com/yourcompany"""
+### End_Of_This_Folder
+
+### My Files
+
+type: LocalPath
+"Company Drive"
+"""C:\Company"""
+
+---
+
+type: LocalPath
+"Finance Folder"
+"""C:\Company\Finance"""
+
+---
+
+type: LocalPath
+"Contracts"
+"""C:\Company\Contracts"""
+
+---
+
+type: LocalPath
+"Marketing"
+"""C:\Company\Marketing"""
+
+---
+
+type: LocalPath
+"Client Work"
+"""C:\Company\Clients"""
+### End_Of_This_Folder
+
+### System Tools
+
+type: Command
+"Lock PC"
+"""rundll32.exe user32.dll,LockWorkStation"""
+
+---
+
+type: Command
+"Shutdown 1H"
+"""shutdown -s -t 3600"""
+
+---
+
+type: Command
+"Restart Now"
+"""shutdown -r -t 0"""
+
+---
+
+type: Command
+"Cancel Shutdown"
+"""shutdown -a"""
+### End_Of_This_Folder
+
+### End_Of_This_Folder
