@@ -38,7 +38,7 @@ PasteKing is provided free of charge and used at your own discretion.
 
 It is designed to store and recall text, open links and files, and run user-defined commands on Windows. The source code is available to review and the application only performs actions defined by the user.
 
-Because PasteKing can execute system-level commands from entries in data.txt, please take care when adding or editing commands, particularly those that affect files or system settings.
+Because PasteKing can execute system-level commands that you can enter, please take care when adding or editing commands, particularly those that affect files or system settings. 
 
 No telemetry. No background data collection. No surprises.
 
