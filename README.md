@@ -1,5 +1,4 @@
-👑 PasteKing
-PasteKing is your personal command center for quick-access text, links, and system tools. It stays right where you need it, letting you copy data or trigger actions with a single click.
+👑 PasteKing is your personal command center for quick-access text, links, and system tools. It stays right where you need it, letting you copy data or trigger actions with a single click.
 
 Quick Start
 Launch: Double-click PasteKing.exe.
@@ -33,7 +32,8 @@ Questions? Email: david@dwbeck.com
 <img width="1262" height="866" alt="PasteKing" src="https://github.com/user-attachments/assets/813ebf37-e6ee-4958-8923-2032036e9a75" />
 <img width="1280" height="720" alt="Pasteking-thumbnail" src="https://github.com/user-attachments/assets/8e718d97-0d41-477a-ab78-c8b6154290a5" />
 
-⚠️ Disclaimer
+⚠️ Disclaimer:
+
 PasteKing is provided free of charge and used at your own discretion.
 
 It is designed to store and recall text, open links and files, and run user-defined commands on Windows. The source code is available to review and the application only performs actions defined by the user.
