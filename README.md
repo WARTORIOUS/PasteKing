@@ -33,4 +33,4 @@ Questions? Email: david@dwbeck.com
 ⚠️ Disclaimer
 PasteKing is provided free of charge and is used entirely at your own risk. David William Beck accepts no responsibility or liability for any issues arising from its use, including but not limited to data loss, system changes, or anything caused by Command-type entries in data.txt. Always double-check any shutdown or system commands before adding them!
 
-© David William Beck — Free & Open Source www.dwbeck.com
+© David William Beck — Free & Open Source www.dwbeck.com www.dwbeck.com/blog/pasteking
