@@ -40,6 +40,8 @@ It is designed to store and recall text, open links and files, and run user-defi
 
 Because PasteKing can execute system-level commands from entries in data.txt, please take care when adding or editing commands, particularly those that affect files or system settings.
 
+No telemetry. No background data collection. No surprises.
+
 By using this software, you accept responsibility for how it is configured and used.
 
 © David William Beck — Free & Open Source www.dwbeck.com www.dwbeck.com/blog/pasteking
