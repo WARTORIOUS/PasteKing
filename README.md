@@ -30,6 +30,9 @@ PasteKing is completely free to use, share, and modify. If it saves you time and
 
 Questions? Email: david@dwbeck.com
 
+<img width="1262" height="866" alt="PasteKing" src="https://github.com/user-attachments/assets/813ebf37-e6ee-4958-8923-2032036e9a75" />
+<img width="1280" height="720" alt="Pasteking-thumbnail" src="https://github.com/user-attachments/assets/8e718d97-0d41-477a-ab78-c8b6154290a5" />
+
 ⚠️ Disclaimer
 PasteKing is provided free of charge and is used entirely at your own risk. David William Beck accepts no responsibility or liability for any issues arising from its use, including but not limited to data loss, system changes, or anything caused by Command-type entries in data.txt. Always double-check any shutdown or system commands before adding them!
 
