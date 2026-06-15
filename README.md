@@ -34,6 +34,12 @@ Questions? Email: david@dwbeck.com
 <img width="1280" height="720" alt="Pasteking-thumbnail" src="https://github.com/user-attachments/assets/8e718d97-0d41-477a-ab78-c8b6154290a5" />
 
 ⚠️ Disclaimer
-PasteKing is provided free of charge and is used entirely at your own risk. David William Beck accepts no responsibility or liability for any issues arising from its use, including but not limited to data loss, system changes, or anything caused by Command-type entries in data.txt. Always double-check any shutdown or system commands before adding them!
+PasteKing is provided free of charge and used at your own discretion.
+
+It is designed to store and recall text, open links and files, and run user-defined commands on Windows. The source code is available to review and the application only performs actions defined by the user.
+
+Because PasteKing can execute system-level commands from entries in data.txt, please take care when adding or editing commands, particularly those that affect files or system settings.
+
+By using this software, you accept responsibility for how it is configured and used.
 
 © David William Beck — Free & Open Source www.dwbeck.com www.dwbeck.com/blog/pasteking
